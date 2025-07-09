@@ -1,0 +1,71 @@
+/* src/styles/reset.scss */
+
+/* Box sizing border-box por padrão */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove margens e padding padrão */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove estilos de listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove decoração de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Define altura mínima e fontes consistentes */
+html,
+body {
+    height: 100%;
+    font-family: sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Imagens responsivas */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Botões sem estilos herdados */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Inherit fonts nos inputs e buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
