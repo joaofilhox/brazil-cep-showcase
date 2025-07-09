@@ -1,12 +1,13 @@
-import { Header } from './components/Header';
+import { DefaultTemplate } from './components/DefaultTemplate';
 import './styles/reset.scss';
 
 function App() {
 
   return (
     <>
-      <Header />
-      <h1>Olá Mundo!!!!</h1>
+      <DefaultTemplate>
+        <h1>Olá Mundo!!!!</h1>
+      </DefaultTemplate>
     </>
   )
 }
